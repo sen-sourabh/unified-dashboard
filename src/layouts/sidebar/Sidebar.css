@@ -1,0 +1,70 @@
+.navbar-logo {
+  text-align: center;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  position: sticky;
+  user-select: none;
+}
+
+.navbar-logo h2 {
+  line-height: 0.9;
+  margin-top: 1%;
+  margin-bottom: 8%;
+}
+
+.sidebar-caption {
+  font-size: 10px;
+  font-weight: lighter;
+  font-style: italic;
+  color: gray;
+}
+
+.navbar-menu {
+  position: relative;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.nav-links {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 12px 12px 12px 12px;
+  /* border: 1px solid lightgray; */
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  color: blue;
+  border-radius: 5px;
+  /* transition: 0.1s ease-in-out; */
+}
+
+.nav-links:active {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  color: blue;
+  border-radius: 5px;
+}
+
+.navbar-footer { 
+  border-top: 1px solid rgb(224, 224, 224);
+  position: relative;
+  bottom: 0;
+}
+
+
+/* .light-border {
+  border-color: whitesmoke;
+  border-bottom-color: whitesmoke;
+  border-top-color: whitesmoke;
+  border-radius: 10%;
+} */

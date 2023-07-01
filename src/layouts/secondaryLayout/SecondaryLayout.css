@@ -1,0 +1,23 @@
+.secondary-layout-navbar{ 
+    list-style: none;
+    display: inline-flex;
+    width: 99%;
+    margin: 0%;
+    padding: 0.25%;
+}
+
+.secondary-layout-menu {
+    padding: 5px;
+    cursor: pointer;
+    font-size: small;
+    margin-left: 1%;
+}
+
+.secondary-layout-menu:hover {
+    /* background-color: #3E79E7; */
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    color: blue;
+    border-radius: 5px;
+    /* transition: background-color 0.5s ease-in-out; */
+  }

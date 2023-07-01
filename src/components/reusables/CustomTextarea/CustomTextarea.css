@@ -1,0 +1,29 @@
+/* CustomTextarea.css */
+
+.custom-textarea {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.custom-textarea-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #1f1f1f;
+    font-size: 14px;
+}
+
+.custom-textarea-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.custom-textarea-input:focus {
+    outline: none;
+    border-color: #3E79E7;
+    box-shadow: 0 0 0 3px rgba(62, 121, 231, 0.3);
+}

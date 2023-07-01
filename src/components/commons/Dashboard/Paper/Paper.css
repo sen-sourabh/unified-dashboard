@@ -1,0 +1,43 @@
+.common-paper {
+    width: 11vW;
+    height: 10vH;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(125, 125, 125, 0.2);
+    padding: 1%;
+    border-radius: 5px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.common-paper:hover {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.common-paper:hover .paper-heading {
+    color: blue;
+}
+
+.common-paper .paper-heading {
+    font-size: 1.1rem;
+}
+
+.common-paper .paper-caption {
+    font-size: 0.6rem;
+    font-weight: lighter;
+    margin-bottom: 6%;
+    font-style: italic;
+    color: gray;
+}
+
+.common-paper .paper-content {
+    font-size: 1.5rem;
+    float: right;
+}
+
+/* .common-paper .no-right-margin {
+    margin-right: 1% !important;
+} */
